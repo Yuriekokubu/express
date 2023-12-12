@@ -1,0 +1,62 @@
+# Ignore compiled files
+*.o
+*.out
+*.class
+*.pyc
+
+# Ignore temporary files
+*~
+.DS_Store
+
+# Ignore environment-specific files
+.env
+venv/
+__pycache__/
+
+# Ignore dependencies
+node_modules/
+bower_components/
+
+# Ignore macOS system files
+.AppleDouble
+.DS_Store
+.LSOverride
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore generated files
+/dist/
+/build/
+
+# Ignore Jekyll build directory
+_site/
+
+# Ignore compiled Java classes
+/target/
+
+# Ignore Python bytecode
+__pycache__/
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn logs
+yarn-error.log
+
+# Ignore Docker artifacts
+docker-compose.override.yml
+docker-compose.yml
+docker-compose.yml.override
